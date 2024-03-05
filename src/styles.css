@@ -40,7 +40,7 @@
         text-decoration: none;
 }
 
-h1{
+.hero h1{
     color: #fff;
         font-size: 54px;
         font-weight: 700;
@@ -48,7 +48,7 @@ h1{
         line-height: 1.5;
         }
 
-h2 {
+.hero h2 {
     color: #fff;
         font-size: 20px;
         font-weight: 300;
@@ -56,3 +56,49 @@ h2 {
         margin: 30px 0 60px;
         letter-spacing: 1px;
         }
+
+.about-me-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 40px;
+}
+.about-me h2, .my-projects h2 {
+    font-size: 24px;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 50px 0;
+        border-bottom: 1px solid #e5ebf2;
+        text-align: center;
+}
+
+.about-me h3{
+    font-size: 18px;
+        color: #3c4258;
+        text-transform: initial;
+        line-height: 1.8;
+        padding-top: 50px;
+}
+
+.about-me p {
+    font-size: 16px;
+    color: #999fb3;
+    padding: 0px 0 43px;
+    border-bottom: 1px solid #999fb3;    
+}
+
+.about-image {
+    max-height: 400px;
+    width: auto;
+}
+
+.social-icons {
+   text-align: center;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #37436D;
+}
