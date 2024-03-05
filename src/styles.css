@@ -150,4 +150,21 @@
 }
 
 
+@media screen and (max-width: 768px) {
+    .project-container {
+        grid-template-columns: 1fr;
+    }
 
+    .about-image {
+        display: none;
+    }
+    
+    .about-me-content {
+        text-align: center;
+        gap: 0;
+    }
+
+    .about-me h2 {
+        padding-bottom: 0px;;
+    }
+}
