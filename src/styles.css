@@ -174,8 +174,51 @@
     font-size: 14px;
 }
 
+footer {
+    background-color: #37436D;
+    margin-top: 30px;
+    color: white;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.footer-column {
+    display: flex;
+    align-items: center;
+}
+
+.footer-column p,
+.footer-column a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-column a {
+    display: inline-flex;
+    align-items: center;
+}
+
+.footer-column a:hover {
+    color: #9F00FF;
+}
 
 @media screen and (max-width: 768px) {
+    
+    .nav-links {
+            display: none;
+        }
+    
     .project-container {
         grid-template-columns: 1fr;
     }
@@ -192,4 +235,13 @@
     .about-me h2 {
         padding-bottom: 0px;;
     }
+
+        footer .footer-container {
+            flex-direction: column;
+            text-align: center;
+        }
+    
+        footer .footer-column {
+            margin: 10px 0;
+        }
 }
