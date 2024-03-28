@@ -110,8 +110,8 @@
 .about-me p {
     font-size: 16px;
     color: #999fb3;
-    padding: 0px 0 43px;
-    border-bottom: 1px solid #999fb3;    
+    padding: 0px 0 10px;
+      
 }
 
 .about-image {
@@ -127,6 +127,7 @@
     margin: 0 10px;
     color: #37436D;
 }
+
 
 .project-container {
     display: grid;
